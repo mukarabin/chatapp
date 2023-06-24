@@ -137,5 +137,13 @@
 
 <script type="text/javascript">
 
-    
+    function _(element){
+
+        return document.getElementById(element);
+    }
+
+    var inner_pannel = _("inner_left_pannel");
+
+    inner_pannel.innerHTML = "this is some data"
+
 </script>
